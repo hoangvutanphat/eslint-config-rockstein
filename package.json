@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-rockstein",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "HoangPhat",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "eslint": "^8.47.0",
+    "eslint-config-standard-with-typescript": "^38.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.0.2",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "^5.1.6",
+    "@typescript-eslint/eslint-plugin-tslint": ">=6.x",
+    "@typescript-eslint/parser": ">=6.x",
+    "eslint-plugin-functional": ">=5.x",
+    "eslint-plugin-jsdoc": ">=46.x",
+    "eslint-plugin-jsx-a11y": ">=6.x",
+    "eslint-plugin-nested-if": ">=1.x",
+    "eslint-plugin-no-else": ">=0.x",
+    "eslint-plugin-prefer-arrow": ">=1.x",
+    "eslint-plugin-react-hooks": ">=4.x"
+  }
+}
