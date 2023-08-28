@@ -122,20 +122,6 @@ module.exports = {
         "@typescript-eslint/explicit-member-accessibility": ["off", {
             "accessibility": "explicit"
         }],
-        "@typescript-eslint/indent": [
-            "error",
-            2,
-            {
-                "ArrayExpression": "first",
-                "FunctionDeclaration": {
-                    "parameters": "first"
-                },
-                "FunctionExpression": {
-                    "parameters": "first"
-                },
-                "SwitchCase": 1
-            }
-        ],
         "@typescript-eslint/interface-name-prefix": "off",
         "@typescript-eslint/member-ordering": "error",
         "@typescript-eslint/no-empty-function": "off",
