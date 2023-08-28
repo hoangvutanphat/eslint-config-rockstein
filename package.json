@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-rockstein",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Rule help clean your code and upgrade your code skills",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "lint": "eslint"
   },
   "keywords": [],
   "author": "HoangPhat",
@@ -14,7 +14,7 @@
     "@typescript-eslint/eslint-plugin": ">=6.x",
     "@typescript-eslint/eslint-plugin-tslint": ">=6.x",
     "@typescript-eslint/parser": ">=6.x",
-    "eslint": ">=8.x",
+    "eslint": "^8.47.0",
     "eslint-plugin-functional": ">=5.x",
     "eslint-plugin-import": ">=2.x",
     "eslint-plugin-jsdoc": ">=46.x",

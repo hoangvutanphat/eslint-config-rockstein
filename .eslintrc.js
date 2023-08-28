@@ -124,7 +124,7 @@ module.exports = {
         }],
         "@typescript-eslint/indent": [
             "error",
-            4,
+            2,
             {
                 "ArrayExpression": "first",
                 "FunctionDeclaration": {
@@ -140,7 +140,6 @@ module.exports = {
         "@typescript-eslint/member-ordering": "error",
         "@typescript-eslint/no-empty-function": "off",
         "@typescript-eslint/no-empty-interface": "error",
-        "@typescript-eslint/no-explicit-any": "error",
         "@typescript-eslint/no-for-in-array": "error",
         "@typescript-eslint/no-inferrable-types": "off",
         "@typescript-eslint/no-misused-new": "error",
@@ -165,7 +164,6 @@ module.exports = {
         "arrow-body-style": "warn",
         "arrow-parens": ["error", "as-needed"],
         "brace-style": ["error", "1tbs"],
-        "comma-dangle": "error",
         "complexity": "off",
         "constructor-super": "error",
         "curly": "error",
@@ -246,10 +244,6 @@ module.exports = {
         "no-else-return": ["error", { allowElseIf: false }],
         "nested-if/nested-if-statements": ["error", 2],
         "functional/no-let": "error",
-        "functional/immutable-data": ["error", {
-            ignoreImmediateMutation: true,
-            ignoreAccessorPattern: "**.current"
-        }],
         "no-else/no-else": 2,
         "@typescript-eslint/no-unused-vars": "error"
     }
